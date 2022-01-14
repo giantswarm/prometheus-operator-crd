@@ -37,7 +37,7 @@ spec:
           # piping stderr to stdout means kubectl's errors are surfaced
           # in the pod's logs.
 
-          kubectl patch -f /data/ -p '{"metadata":{"annotations":{"meta.helm.sh/release-name": "prometheus-operator-crds","meta.helm.sh/release-namespace": "prometheus-operator-crds"},"labels":{"app.kubernetes.io/managed-by": "Helms"}}}'
+          kubectl apply --server-side=true --field-manager='kubectl-client-side-apply' --force-conflicts -f /data/ 2>&1
         volumeMounts:
 {{- range $path, $_ := .Files.Glob "../*.yaml" }}
         - name: {{ $path | base | trimSuffix ".yaml" }}
