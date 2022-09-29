@@ -6,7 +6,6 @@ on:
       version:
         description: 'Target upstream version https://github.com/prometheus-community/helm-charts/tags eliminate "kube-prometheus-stack-*"'     
         required: true
-        default: 'main'
 
 
 jobs:
