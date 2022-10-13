@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
-    - name: Set up git identity
+    - name: Fetch CRDs
       env:
         VERSION: ${{ inputs.version }}
       run: ./hack/sync.sh
