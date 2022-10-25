@@ -66,6 +66,15 @@ See our [full reference page on how to configure applications](https://docs.gian
 
 In order to sync CRDs from upstream, run:
 
+* Github action `crds-upgrade`
+
+![Screen Shot 2022-10-25 at 2 31 59 PM](https://user-images.githubusercontent.com/15221272/197787276-047d67fa-0de4-478a-89e1-834e1316050a.png)
+
+
+OR
+
+* Run this script:
+
 ```bash
 VERSION=32.4.0 hack/sync.sh
 ```
