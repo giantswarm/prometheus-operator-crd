@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Upgrade CRDs from 32.4.0 (prometheus-operator 0.54.0) to 41.6.0 (prometheus-operator 0.60.1) - See [upstream changelog](https://github.com/prometheus-operator/prometheus-operator/blob/main/CHANGELOG.md#0601--2022-10-10) for more information
+
 ## [2.0.1] - 2022-10-31
 
 - Push app to GCP collection
@@ -15,7 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Upgrade CRDs from 23.2.0 (prometheus-operator 0.52.1) to 32.4.0 (prometheus-operator 0.54.0) - See [upstream changelog](https://github.com/prometheus-operator/prometheus-operator/blob/main/CHANGELOG.md#0420--2020-09-09) for more information
+- Upgrade CRDs from 23.2.0 (prometheus-operator 0.52.1) to 32.4.0 (prometheus-operator 0.54.0) - See [upstream changelog](https://github.com/prometheus-operator/prometheus-operator/blob/main/CHANGELOG.md#0540--2022-01-26) for more information
 
 ## [1.0.1] - 2022-03-11
 
