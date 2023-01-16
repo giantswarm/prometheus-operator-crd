@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.0.0] - 2023-01-16
+
 ### Removed
 
 - Delete push job to CAPI app-collection
@@ -37,7 +39,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Add prometheus-operator CRD from https://github.com/giantswarm/prometheus-operator-app/tree/v0.12.1/helm/prometheus-operator-app/files
 
-[Unreleased]: https://github.com/giantswarm/prometheus-operator-crd/compare/v2.0.1...HEAD
+[Unreleased]: https://github.com/giantswarm/prometheus-operator-crd/compare/v3.0.0...HEAD
+[3.0.0]: https://github.com/giantswarm/prometheus-operator-crd/compare/v2.0.1...v3.0.0
 [2.0.1]: https://github.com/giantswarm/prometheus-operator-crd/compare/v2.0.0...v2.0.1
 [2.0.0]: https://github.com/giantswarm/prometheus-operator-crd/compare/v1.0.1...v2.0.0
 [1.0.1]: https://github.com/giantswarm/prometheus-operator-crd/compare/v1.0.0...v1.0.1
