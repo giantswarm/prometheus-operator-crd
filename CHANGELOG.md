@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [4.0.0] - 2023-03-13
+
 ### Changed
 
 - Upgrade CRDs from 44.2.0 (prometheus-operator 0.62.0) to 45.7.1 (prometheus-operator 0.63.0) - See [upstream changelog](https://github.com/prometheus-operator/prometheus-operator/blob/main/CHANGELOG.md#0630--2023-02-08) for more information
@@ -43,7 +45,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Add prometheus-operator CRD from https://github.com/giantswarm/prometheus-operator-app/tree/v0.12.1/helm/prometheus-operator-app/files
 
-[Unreleased]: https://github.com/giantswarm/prometheus-operator-crd/compare/v3.0.0...HEAD
+[Unreleased]: https://github.com/giantswarm/prometheus-operator-crd/compare/v4.0.0...HEAD
+[4.0.0]: https://github.com/giantswarm/prometheus-operator-crd/compare/v3.0.0...v4.0.0
 [3.0.0]: https://github.com/giantswarm/prometheus-operator-crd/compare/v2.0.1...v3.0.0
 [2.0.1]: https://github.com/giantswarm/prometheus-operator-crd/compare/v2.0.0...v2.0.1
 [2.0.0]: https://github.com/giantswarm/prometheus-operator-crd/compare/v1.0.1...v2.0.0
