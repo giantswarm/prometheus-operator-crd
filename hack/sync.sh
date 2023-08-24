@@ -12,7 +12,7 @@ script_dir="$( cd "$( dirname "$0" )" && pwd )"
 function main() {
     git clone --depth 1  --branch "kube-prometheus-stack-${version}" "$upstream" "$tmp"
     rm -rf  "$script_dir/../helm/prometheus-operator-crd/templates/"
-    cp -rf "$tmp/charts/kube-prometheus-stack/crds/" "$script_dir/../helm/prometheus-operator-crd/templates/"
+    cp -rf "$tmp/charts/kube-prometheus-stack/charts/crds/crds/" "$script_dir/../helm/prometheus-operator-crd/templates/"
 }
 
 trap "rm -rf $tmp" EXIT
