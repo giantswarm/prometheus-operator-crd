@@ -8,7 +8,7 @@ type: application
 sources:
   - https://github.com/prometheus-community/helm-charts
   - https://github.com/prometheus-operator/kube-prometheus
-appVersion: 0.67.1
+appVersion: 0.68.0
 version: 6.0.0
 kubeVersion: ">=1.19.0-0"
 annotations:
