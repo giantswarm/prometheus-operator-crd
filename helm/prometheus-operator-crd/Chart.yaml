@@ -9,7 +9,7 @@ sources:
   - https://github.com/prometheus-community/helm-charts
   - https://github.com/prometheus-operator/kube-prometheus
 appVersion: 0.68.0
-version: 6.0.0
+version: 6.1.0
 kubeVersion: ">=1.19.0-0"
 annotations:
   application.giantswarm.io/team: atlas
