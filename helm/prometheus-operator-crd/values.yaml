@@ -1,1 +1,5 @@
-comment: "values are required for build to pass"
+prometheus-operator-crds:
+  ## Annotations for CRDs
+  ##
+  crds:
+    annotations: {}
