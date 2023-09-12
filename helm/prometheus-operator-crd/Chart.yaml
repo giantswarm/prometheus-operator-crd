@@ -15,3 +15,7 @@ annotations:
   application.giantswarm.io/team: atlas
 restrictions:
   clusterSingleton: true
+dependencies:
+  - name: prometheus-operator-crds
+    version: 6.0.0
+    repository: https://prometheus-community.github.io/helm-charts

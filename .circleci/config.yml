@@ -11,6 +11,7 @@ workflows:
           executor: app-build-suite
           app_catalog: default-catalog
           app_catalog_test: default-test-catalog
+          ct_config: ".circleci/ct-config.yaml"
           chart: prometheus-operator-crd
           filters:
             tags:
@@ -22,6 +23,7 @@ workflows:
           executor: app-build-suite
           app_catalog: giantswarm-catalog
           app_catalog_test: giantswarm-test-catalog
+          ct_config: ".circleci/ct-config.yaml"
           chart: prometheus-operator-crd
           filters:
             tags:
