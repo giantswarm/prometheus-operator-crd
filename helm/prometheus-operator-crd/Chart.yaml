@@ -8,7 +8,7 @@ type: application
 sources:
   - https://github.com/prometheus-community/helm-charts
   - https://github.com/prometheus-operator/kube-prometheus
-appVersion: 0.68.0
+appVersion: 0.71.0
 version: 8.0.0
 kubeVersion: ">=1.19.0-0"
 annotations:
@@ -17,5 +17,5 @@ restrictions:
   clusterSingleton: true
 dependencies:
   - name: prometheus-operator-crds
-    version: 8.0.1
+    version: 9.0.0
     repository: https://prometheus-community.github.io/helm-charts
