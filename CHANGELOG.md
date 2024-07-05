@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Add `helm.sh/resource-policy: keep` annotation to all CRDs.
+- Add a finalizer to all CRDs to protect CRs.
+
 ## [11.0.0] - 2024-06-28
 
 ### Changed
