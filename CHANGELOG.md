@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Add a ClusterPolicy to prevent prometheus-operator CRD deletion.
+
 ## [11.0.1] - 2024-07-18
 
 ### Added
