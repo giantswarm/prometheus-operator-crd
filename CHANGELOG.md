@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Upgrade CRDs chart from 15.0.0 (prometheus-operator 0.77.1) to 16.0.0 (prometheus-operator 0.78.1) - See [upstream changelog](https://github.com/prometheus-operator/prometheus-operator/blob/main/CHANGELOG.md#0781--2024-10-30) for more information
+
 ## [12.0.0] - 2024-10-11
 
 ### Changed
