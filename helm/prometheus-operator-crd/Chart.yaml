@@ -3,7 +3,6 @@ name: prometheus-operator-crd
 description: kube-prometheus-stack CustomResourceDefinitions.
 home: https://github.com/giantswarm/prometheus-operator-crd
 icon: https://s.giantswarm.io/app-icons/prometheus-operator/2/light.svg
-engine: gotpl
 type: application
 sources:
   - https://github.com/prometheus-community/helm-charts
@@ -12,9 +11,7 @@ appVersion: v0.87.1
 version: 19.0.0
 kubeVersion: ">=1.19.0-0"
 annotations:
-  application.giantswarm.io/team: atlas
-restrictions:
-  clusterSingleton: true
+  io.giantswarm.application.team: atlas
 dependencies:
   - name: prometheus-operator-crds
     version: 25.0.1
