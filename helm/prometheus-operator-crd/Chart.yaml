@@ -12,6 +12,8 @@ version: 19.0.1
 kubeVersion: ">=1.19.0-0"
 annotations:
   io.giantswarm.application.team: atlas
+  io.giantswarm.application.audience: all
+  io.giantswarm.application.managed: "true"
 dependencies:
   - name: prometheus-operator-crds
     version: 25.0.1
