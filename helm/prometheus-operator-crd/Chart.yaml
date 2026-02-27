@@ -14,5 +14,5 @@ annotations:
   io.giantswarm.application.team: atlas
 dependencies:
   - name: prometheus-operator-crds
-    version: 25.0.1
+    version: 27.0.0
     repository: https://prometheus-community.github.io/helm-charts
