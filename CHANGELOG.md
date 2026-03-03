@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [20.0.0] - 2026-03-03
+
 ### Changed
 
 - Upgrade CRDs chart to 27.0.0 (prometheus-operator 0.89.0) - See [upstream changelog](https://github.com/prometheus-operator/prometheus-operator/blob/main/CHANGELOG.md#0890--2026-02-05) for more information
@@ -159,7 +161,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Add prometheus-operator CRD from https://github.com/giantswarm/prometheus-operator-app/tree/v0.12.1/helm/prometheus-operator-app/files
 
-[Unreleased]: https://github.com/giantswarm/prometheus-operator-crd/compare/v19.0.1...HEAD
+[Unreleased]: https://github.com/giantswarm/prometheus-operator-crd/compare/v20.0.0...HEAD
+[20.0.0]: https://github.com/giantswarm/prometheus-operator-crd/compare/v19.0.1...v20.0.0
 [19.0.1]: https://github.com/giantswarm/prometheus-operator-crd/compare/v19.0.0...v19.0.1
 [19.0.0]: https://github.com/giantswarm/prometheus-operator-crd/compare/v18.0.0...v19.0.0
 [18.0.0]: https://github.com/giantswarm/prometheus-operator-crd/compare/v17.0.0...v18.0.0
