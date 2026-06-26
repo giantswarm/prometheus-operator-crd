@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Fix ABS config to not override AppVersion in Chart.yaml
+- Upgrade CRDs chart to 30.0.0 (prometheus-operator 0.92.0) - See [upstream changelog](https://github.com/prometheus-operator/prometheus-operator/blob/main/CHANGELOG.md#0920--2026-06-18) for more information
 
 ## [21.0.0] - 2026-05-22
 
