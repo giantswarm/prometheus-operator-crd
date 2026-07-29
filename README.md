@@ -60,7 +60,7 @@ See our [full reference page on how to configure applications](https://docs.gian
 
 ## Credits
 
-* https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack
+* https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-operator-crds
 
 ## Upgrade
 
