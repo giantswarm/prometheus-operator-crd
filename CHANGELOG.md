@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Remove the dead `crds-upgrade` workflow and document the Renovate-based CRD upgrade flow; CRD upgrades have been handled by the Helm chart dependency since v6.1.0.
+
 ## [22.0.0] - 2026-06-29
 
 ### Changed
