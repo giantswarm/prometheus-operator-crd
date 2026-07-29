@@ -3,4 +3,9 @@ generate-metadata: true
 chart-dir: ./helm/prometheus-operator-crd
 destination: ./build
 disable-giantswarm-helm-validator: true
+# The upstream prometheus-operator-crds chart renders the AlertManagerConfig
+# `matchType` enum with an unquoted `=`, which PyYAML (YAML 1.1) resolves to the
+# special value tag instead of a string. The manifests are valid YAML 1.2 and
+# valid to Kubernetes, so this validator is a false positive here.
+disable-helm-template-validator: true
 ct-config: ./.circleci/ct-config.yaml
