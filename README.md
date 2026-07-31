@@ -60,21 +60,18 @@ See our [full reference page on how to configure applications](https://docs.gian
 
 ## Credits
 
-* https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack
+* https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-operator-crds
 
 ## Upgrade
 
-In order to sync CRDs from upstream, run:
+The CRDs come from the upstream [`prometheus-operator-crds`](https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-operator-crds)
+chart, declared as a dependency in `helm/prometheus-operator-crd/Chart.yaml`.
 
-* Github action `crds-upgrade`
+Renovate opens a PR automatically for each upstream release, so no manual action is normally needed.
 
-![Screen Shot 2022-10-25 at 2 31 59 PM](https://user-images.githubusercontent.com/15221272/197787276-047d67fa-0de4-478a-89e1-834e1316050a.png)
-
-
-OR
-
-* Run this script:
+To bump it by hand, set the `dependencies[0].version` field in `helm/prometheus-operator-crd/Chart.yaml`,
+then refresh `Chart.lock`:
 
 ```bash
-VERSION=32.4.0 hack/sync.sh
+make update-deps APPLICATION=prometheus-operator-crd
 ```
