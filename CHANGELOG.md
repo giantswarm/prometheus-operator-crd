@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [23.0.0] - 2026-09-03
+
 ### Changed
 
 - Remove the dead `crds-upgrade` workflow and document the Renovate-based CRD upgrade flow; CRD upgrades have been handled by the Helm chart dependency since v6.1.0.
@@ -179,7 +181,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Add prometheus-operator CRD from https://github.com/giantswarm/prometheus-operator-app/tree/v0.12.1/helm/prometheus-operator-app/files
 
-[Unreleased]: https://github.com/giantswarm/prometheus-operator-crd/compare/v22.0.0...HEAD
+[Unreleased]: https://github.com/giantswarm/prometheus-operator-crd/compare/v23.0.0...HEAD
+[23.0.0]: https://github.com/giantswarm/prometheus-operator-crd/compare/v22.0.0...v23.0.0
 [22.0.0]: https://github.com/giantswarm/prometheus-operator-crd/compare/v21.0.0...v22.0.0
 [21.0.0]: https://github.com/giantswarm/prometheus-operator-crd/compare/v20.0.0...v21.0.0
 [20.0.0]: https://github.com/giantswarm/prometheus-operator-crd/compare/v19.0.1...v20.0.0
