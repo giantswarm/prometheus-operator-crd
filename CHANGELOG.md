@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Remove the dead `crds-upgrade` workflow and document the Renovate-based CRD upgrade flow; CRD upgrades have been handled by the Helm chart dependency since v6.1.0.
+- Upgrade CRDs chart to 31.0.1 (prometheus-operator 0.93.1) - See [upstream changelog](https://github.com/prometheus-operator/prometheus-operator/blob/main/CHANGELOG.md#0931--2026-08-10) for more information
 
 ## [22.0.0] - 2026-06-29
 
