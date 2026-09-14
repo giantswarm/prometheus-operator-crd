@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [24.0.0] - 2026-09-14
 
+### Changed
+
+- Upgrade CRDs chart to 32.0.0 (prometheus-operator 0.94.0) - See [upstream changelog](https://github.com/prometheus-operator/prometheus-operator/blob/main/CHANGELOG.md#0940--2026-09-09) for more information
+
 ## [23.0.0] - 2026-09-03
 
 ### Changed
