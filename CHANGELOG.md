@@ -11,6 +11,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Update architect to v10.17.2 (giantswarm/prometheus-operator-crd#302)
 - Update architect to v10.18.0 (giantswarm/prometheus-operator-crd#314)
+- Upgrade CRDs chart from 32.0.0 to 33.0.2 (prometheus-operator v0.95.2) (giantswarm/prometheus-operator-crd#309). See [upstream changelog](https://github.com/prometheus-operator/prometheus-operator/blob/main/CHANGELOG.md) for more information.
+  - Add `extraScrapeMetrics` to `Prometheus`, `PrometheusAgent`, `ServiceMonitor`, `PodMonitor`, `Probe` and `ScrapeConfig`.
+  - Add `alertmanagerConfigFileSystemMode` to `Alertmanager`.
+  - Add Telegram `botToken` and `botTokenFile` to `AlertmanagerConfig`.
+- Set the chart `appVersion` to `v0.95.2`.
+
+> **Note:** release this app before the matching `kube-prometheus-stack` app (giantswarm/kube-prometheus-stack-app#635).
 
 ## [24.0.0] - 2026-09-14
 
